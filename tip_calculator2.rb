@@ -1,9 +1,15 @@
-# The script should initially assign three variables, with values 
-# of your choosing: meal (the base price of the meal), tax (the tax rate for the meal), 
-# and tip (the tip rate for the meal).
-meal = 100.50
-tax = 0.10
-tip = 0.2
+# Your script should provide the same sort of output as Version 1, 
+# but rather than using hard-coded variables, it should ask the user 
+# for the cost of their meal, their local tax rate, and 
+# how much they’d like to tip.
+puts "What was the cost of this meal?"
+meal = gets.chomp.to_f
+
+puts "What is the local tax rate on meals?"
+tax = gets.chomp.to_f
+
+puts "And how much would you like to tip?"
+tip = gets.chomp.to_f
 
 
 # # Using these initial variables, the script should then assign four additional variables: 
